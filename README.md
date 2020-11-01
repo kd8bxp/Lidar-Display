@@ -22,6 +22,10 @@ It will just display the reading of the lidar sensor in the serial console.
 The 2nd sketch lidar_radar_with_processing2.ino works with the processing IDE and processing sketch (lidar_processing_code) and will display a radar like sweep.  
 The processing sketch is a modified version of the Arduino Radar Project Sketch. With key changes to max range of the Lidar, and changing the original display from a line to a point.  
 
+## Libraries
+
+Because the Arduino IDE has been getting pretty bad handling libraries, I've included the libraries used in the src directory of the sketch. These libraries may have been slightly modified to work from the sketch directory, and do not include the examples.  
+
 ## Things To Do
 
 ## Usage

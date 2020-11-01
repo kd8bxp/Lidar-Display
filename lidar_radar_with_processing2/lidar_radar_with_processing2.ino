@@ -7,7 +7,7 @@
 
 #include <SoftwareSerial.h>
 #include <Wire.h>
-#include <Adafruit_PWMServoDriver.h> https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library
+#include "src/Adafruit_PWMServoDriver/Adafruit_PWMServoDriver.h" //https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library
 
 #define pan 0
 #define tilt 1
